@@ -1,0 +1,27 @@
+ipconfig 
+ipconfig /all
+
+
+
+ping www.google.com
+ping 192.168.1.1
+ping 192.168.1.1 -t
+
+
+
+tracert 8.8.8.8
+tracert -d 8.8.8.8      // Diabling DNS lookup
+
+
+
+nslookup www.google.com
+nslookup 8.8.8.8
+nslookup mgit.ac.in
+
+
+
+arp -a
+
+
+
+getmac
